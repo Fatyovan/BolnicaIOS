@@ -8,12 +8,24 @@
 
 /* Begin PBXBuildFile section */
 		D912E78E2BA3644F00C17E8C /* BolnicaIOSApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D912E78D2BA3644F00C17E8C /* BolnicaIOSApp.swift */; };
-		D912E7902BA3644F00C17E8C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D912E78F2BA3644F00C17E8C /* ContentView.swift */; };
+		D912E7902BA3644F00C17E8C /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D912E78F2BA3644F00C17E8C /* MainView.swift */; };
 		D912E7922BA3645000C17E8C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D912E7912BA3645000C17E8C /* Assets.xcassets */; };
 		D912E7952BA3645000C17E8C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D912E7942BA3645000C17E8C /* Preview Assets.xcassets */; };
 		D912E79F2BA3645000C17E8C /* BolnicaIOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D912E79E2BA3645000C17E8C /* BolnicaIOSTests.swift */; };
 		D912E7A92BA3645000C17E8C /* BolnicaIOSUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D912E7A82BA3645000C17E8C /* BolnicaIOSUITests.swift */; };
 		D912E7AB2BA3645000C17E8C /* BolnicaIOSUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D912E7AA2BA3645000C17E8C /* BolnicaIOSUITestsLaunchTests.swift */; };
+		D912E7BC2BA3678700C17E8C /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D912E7BB2BA3678700C17E8C /* LoginView.swift */; };
+		D912E7BE2BA369E300C17E8C /* LoginHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D912E7BD2BA369E300C17E8C /* LoginHeaderView.swift */; };
+		D912E7C02BA36E6A00C17E8C /* BButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = D912E7BF2BA36E6A00C17E8C /* BButton.swift */; };
+		D912E7C22BA3704000C17E8C /* LoginViewViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D912E7C12BA3704000C17E8C /* LoginViewViewModel.swift */; };
+		D95A15582BA5D2A400B7A070 /* KeychainManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D95A15572BA5D2A400B7A070 /* KeychainManager.swift */; };
+		D95A155A2BA5DBA400B7A070 /* RoomModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D95A15592BA5DBA400B7A070 /* RoomModel.swift */; };
+		D95A155C2BA5E0CE00B7A070 /* DepartmentModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D95A155B2BA5E0CE00B7A070 /* DepartmentModel.swift */; };
+		D95A155F2BA5E86C00B7A070 /* AppUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = D95A155E2BA5E86C00B7A070 /* AppUtils.swift */; };
+		D9684F5C2BA3D4AA00EA8776 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9684F5B2BA3D4AA00EA8776 /* HomeView.swift */; };
+		D9684F5E2BA3DA3900EA8776 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9684F5D2BA3DA3900EA8776 /* ProfileView.swift */; };
+		D9684F622BA3DAFC00EA8776 /* HomeViewViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9684F612BA3DAFC00EA8776 /* HomeViewViewModel.swift */; };
+		D9684F642BA3E4C000EA8776 /* InfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9684F632BA3E4C000EA8776 /* InfoView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +48,7 @@
 /* Begin PBXFileReference section */
 		D912E78A2BA3644F00C17E8C /* BolnicaIOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BolnicaIOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D912E78D2BA3644F00C17E8C /* BolnicaIOSApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BolnicaIOSApp.swift; sourceTree = "<group>"; };
-		D912E78F2BA3644F00C17E8C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		D912E78F2BA3644F00C17E8C /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
 		D912E7912BA3645000C17E8C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D912E7942BA3645000C17E8C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		D912E79A2BA3645000C17E8C /* BolnicaIOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BolnicaIOSTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -44,6 +56,18 @@
 		D912E7A42BA3645000C17E8C /* BolnicaIOSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BolnicaIOSUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D912E7A82BA3645000C17E8C /* BolnicaIOSUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BolnicaIOSUITests.swift; sourceTree = "<group>"; };
 		D912E7AA2BA3645000C17E8C /* BolnicaIOSUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BolnicaIOSUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		D912E7BB2BA3678700C17E8C /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		D912E7BD2BA369E300C17E8C /* LoginHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginHeaderView.swift; sourceTree = "<group>"; };
+		D912E7BF2BA36E6A00C17E8C /* BButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BButton.swift; sourceTree = "<group>"; };
+		D912E7C12BA3704000C17E8C /* LoginViewViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewViewModel.swift; sourceTree = "<group>"; };
+		D95A15572BA5D2A400B7A070 /* KeychainManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeychainManager.swift; sourceTree = "<group>"; };
+		D95A15592BA5DBA400B7A070 /* RoomModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoomModel.swift; sourceTree = "<group>"; };
+		D95A155B2BA5E0CE00B7A070 /* DepartmentModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DepartmentModel.swift; sourceTree = "<group>"; };
+		D95A155E2BA5E86C00B7A070 /* AppUtils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppUtils.swift; sourceTree = "<group>"; };
+		D9684F5B2BA3D4AA00EA8776 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		D9684F5D2BA3DA3900EA8776 /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
+		D9684F612BA3DAFC00EA8776 /* HomeViewViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewViewModel.swift; sourceTree = "<group>"; };
+		D9684F632BA3E4C000EA8776 /* InfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,8 +119,12 @@
 			isa = PBXGroup;
 			children = (
 				D912E78D2BA3644F00C17E8C /* BolnicaIOSApp.swift */,
-				D912E78F2BA3644F00C17E8C /* ContentView.swift */,
 				D912E7912BA3645000C17E8C /* Assets.xcassets */,
+				D95A155D2BA5E85A00B7A070 /* Utils */,
+				D95A15562BA5D28D00B7A070 /* Managers */,
+				D912E7B72BA366B100C17E8C /* Models */,
+				D912E7B92BA366C500C17E8C /* ViewModels */,
+				D912E7BA2BA366CC00C17E8C /* Views */,
 				D912E7932BA3645000C17E8C /* Preview Content */,
 			);
 			path = BolnicaIOS;
@@ -125,6 +153,54 @@
 				D912E7AA2BA3645000C17E8C /* BolnicaIOSUITestsLaunchTests.swift */,
 			);
 			path = BolnicaIOSUITests;
+			sourceTree = "<group>";
+		};
+		D912E7B72BA366B100C17E8C /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				D95A15592BA5DBA400B7A070 /* RoomModel.swift */,
+				D95A155B2BA5E0CE00B7A070 /* DepartmentModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		D912E7B92BA366C500C17E8C /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				D912E7C12BA3704000C17E8C /* LoginViewViewModel.swift */,
+				D9684F612BA3DAFC00EA8776 /* HomeViewViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		D912E7BA2BA366CC00C17E8C /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				D912E78F2BA3644F00C17E8C /* MainView.swift */,
+				D912E7BB2BA3678700C17E8C /* LoginView.swift */,
+				D9684F5B2BA3D4AA00EA8776 /* HomeView.swift */,
+				D9684F632BA3E4C000EA8776 /* InfoView.swift */,
+				D9684F5D2BA3DA3900EA8776 /* ProfileView.swift */,
+				D912E7BD2BA369E300C17E8C /* LoginHeaderView.swift */,
+				D912E7BF2BA36E6A00C17E8C /* BButton.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		D95A15562BA5D28D00B7A070 /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				D95A15572BA5D2A400B7A070 /* KeychainManager.swift */,
+			);
+			path = Managers;
+			sourceTree = "<group>";
+		};
+		D95A155D2BA5E85A00B7A070 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				D95A155E2BA5E86C00B7A070 /* AppUtils.swift */,
+			);
+			path = Utils;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -257,7 +333,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D912E7902BA3644F00C17E8C /* ContentView.swift in Sources */,
+				D9684F5E2BA3DA3900EA8776 /* ProfileView.swift in Sources */,
+				D912E7BC2BA3678700C17E8C /* LoginView.swift in Sources */,
+				D912E7C22BA3704000C17E8C /* LoginViewViewModel.swift in Sources */,
+				D912E7C02BA36E6A00C17E8C /* BButton.swift in Sources */,
+				D912E7BE2BA369E300C17E8C /* LoginHeaderView.swift in Sources */,
+				D9684F5C2BA3D4AA00EA8776 /* HomeView.swift in Sources */,
+				D95A15582BA5D2A400B7A070 /* KeychainManager.swift in Sources */,
+				D912E7902BA3644F00C17E8C /* MainView.swift in Sources */,
+				D95A155A2BA5DBA400B7A070 /* RoomModel.swift in Sources */,
+				D95A155F2BA5E86C00B7A070 /* AppUtils.swift in Sources */,
+				D9684F622BA3DAFC00EA8776 /* HomeViewViewModel.swift in Sources */,
+				D9684F642BA3E4C000EA8776 /* InfoView.swift in Sources */,
+				D95A155C2BA5E0CE00B7A070 /* DepartmentModel.swift in Sources */,
 				D912E78E2BA3644F00C17E8C /* BolnicaIOSApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -422,6 +510,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"BolnicaIOS/Preview Content\"";
+				DEVELOPMENT_TEAM = 9LUQS2HF2N;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -450,6 +539,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"BolnicaIOS/Preview Content\"";
+				DEVELOPMENT_TEAM = 9LUQS2HF2N;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
